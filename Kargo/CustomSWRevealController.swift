@@ -9,6 +9,7 @@
 import UIKit
 
 class CustomSWRevealController: SWRevealViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,15 +17,17 @@ class CustomSWRevealController: SWRevealViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    func exit() -> () {
+        self.dismiss(animated: true, completion: nil)
     }
-    */
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "segueToExit")
+        {
+            let VC = segue.destination as! ExitPopupController
+            VC.exit = self.exit
+        }
+    }
+    
 }

@@ -10,4 +10,7 @@ import UIKit
 
 class DocumentCollectionCell: UICollectionViewCell {
     
+    
+    @IBOutlet weak var docImage: UIImageView!
+    @IBOutlet weak var docNameLbl: UILabel!
 }

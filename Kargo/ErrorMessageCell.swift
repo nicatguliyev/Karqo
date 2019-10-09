@@ -10,6 +10,9 @@ import UIKit
 
 class ErrorMessageCell: UITableViewCell {
 
+    @IBOutlet weak var errorLbl: UIView!
+    @IBOutlet weak var errorMessage: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

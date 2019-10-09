@@ -8,8 +8,23 @@
 
 import UIKit
 
-class FindOrderCollectionCell: UICollectionViewCell {
+class FindOrderCollectionCell: UICollectionViewCell
 
+{
+
+    @IBOutlet weak var nameView: UIView!
+    @IBOutlet weak var mainView: UIView!
+    @IBOutlet weak var priceView: UIView!
+    @IBOutlet weak var fromCountryLbl: UILabel!
+    @IBOutlet weak var personNameLbl: UILabel!
+    @IBOutlet weak var toCountryLbl: UILabel!
+    @IBOutlet weak var dateLbl: UILabel!
+    @IBOutlet weak var typeLbl: UILabel!
+    @IBOutlet weak var tipLbl: UILabel!
+    @IBOutlet weak var priceLbl: UILabel!
+    @IBOutlet weak var removeBtn: UIButton!
+    @IBOutlet weak var editBtn: UIButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
