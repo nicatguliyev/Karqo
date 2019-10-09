@@ -68,6 +68,7 @@
 		CD23A8A022E79B8300FE9D5A /* bellIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD23A89D22E79B8200FE9D5A /* bellIcon.png */; };
 		CD23A8A222E79C2200FE9D5A /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD23A8A122E79C2200FE9D5A /* SettingsController.swift */; };
 		CD23A8A422E7AE3000FE9D5A /* BildirisSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD23A8A322E7AE3000FE9D5A /* BildirisSettingsController.swift */; };
+		CD46221A234E7D2300FC976A /* DriverProfileDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD462219234E7D2300FC976A /* DriverProfileDetailController.swift */; };
 		CD73D86622CE8DD40041B9E2 /* CustomerRegController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD73D86522CE8DD40041B9E2 /* CustomerRegController.swift */; };
 		CD73D86822CEAA030041B9E2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD73D86722CEAA030041B9E2 /* LoginController.swift */; };
 		CD73D86A22CEAD620041B9E2 /* userIco.png in Resources */ = {isa = PBXBuildFile; fileRef = CD73D86922CEAD620041B9E2 /* userIco.png */; };
@@ -205,6 +206,7 @@
 		CD23A89D22E79B8200FE9D5A /* bellIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bellIcon.png; sourceTree = "<group>"; };
 		CD23A8A122E79C2200FE9D5A /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		CD23A8A322E7AE3000FE9D5A /* BildirisSettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BildirisSettingsController.swift; sourceTree = "<group>"; };
+		CD462219234E7D2300FC976A /* DriverProfileDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProfileDetailController.swift; sourceTree = "<group>"; };
 		CD73D86522CE8DD40041B9E2 /* CustomerRegController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRegController.swift; sourceTree = "<group>"; };
 		CD73D86722CEAA030041B9E2 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		CD73D86922CEAD620041B9E2 /* userIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userIco.png; sourceTree = "<group>"; };
@@ -402,6 +404,7 @@
 				CDD7B6AF23373370007B496D /* QuestionView.xib */,
 				CDD7B6B123373395007B496D /* QuestionView.swift */,
 				CDD7B6B3233BECF9007B496D /* ExitPopupController.swift */,
+				CD462219234E7D2300FC976A /* DriverProfileDetailController.swift */,
 			);
 			path = Kargo;
 			sourceTree = "<group>";
@@ -722,6 +725,7 @@
 				CDD7B6AE233612C8007B496D /* RequiredFieldsController.swift in Sources */,
 				CD23A89422E6263D00FE9D5A /* ProfileDetailController.swift in Sources */,
 				CD796BE323106E00008D8805 /* ErrorMessageCell.swift in Sources */,
+				CD46221A234E7D2300FC976A /* DriverProfileDetailController.swift in Sources */,
 				CD73D88C22D3316E0041B9E2 /* DriverInfoController.swift in Sources */,
 				CD73D89D22D4BC7A0041B9E2 /* InfoTableViewCell.swift in Sources */,
 				CD73D89022D391740041B9E2 /* CustomView.swift in Sources */,
