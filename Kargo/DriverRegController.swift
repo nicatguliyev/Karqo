@@ -159,7 +159,7 @@ class DriverRegController: UIViewController, UITableViewDelegate, UITableViewDat
             "name":"\(nameTextField.text ?? "")",
             "username":"\(userNameTextField.text ?? "")",
             "password":"\(passwordTextField.text ?? "")",
-            "phone":filteredNumbers.joined(separator: ","),
+            "phone":filteredNumbers.joined(separator: ","),  // Arraydeki elementleri vergul ile birlesdirir
             "password_confirmation":"\(repeatPasswordTextField.text ?? "")",
             "voen":voenTextField.text ?? ""
         ]
